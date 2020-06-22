@@ -26,7 +26,7 @@ import com.netsuite.suitetalk.proxy.v2020_1.platform.core.types.GetAllRecordType
 public class InitOperations {
 
 	private WsClient client;
-	
+
 	private static Logger LOGGER = LoggerFactory.getLogger(InitOperations.class);
 
 	/**
@@ -37,13 +37,13 @@ public class InitOperations {
 	public InitOperations(WsClient client) {
 		this.client = client;
 	}
-	
+
 	/**
-     * Starts selection of sample operation.
-     */
-    public void run() {
-    	getAllRecord();
-    }
+	 * Starts selection of sample operation.
+	 */
+	public void run() {
+		getAllRecord();
+	}
 
 	private void getAllRecord() {
 

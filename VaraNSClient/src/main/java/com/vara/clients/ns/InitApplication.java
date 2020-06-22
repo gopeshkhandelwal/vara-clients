@@ -12,20 +12,6 @@ import org.slf4j.LoggerFactory;
 
 import com.netsuite.suitetalk.client.v2020_1.WsClient;
 
-/**
- * <p>
- * Fully functional, command-line driven application that illustrates how to
- * connect to the NetSuite web services and invoke operations.
- * </p>
- * <p>
- * Please see the README on how to compile and run. Note that the
- * {@code nsclient.properties} file must exist in the installed root directory
- * for this application to run.
- * </p>
- * <p>
- * © 2019 NetSuite Inc. All rights reserved.
- * </p>
- */
 public class InitApplication {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(InitApplication.class);
